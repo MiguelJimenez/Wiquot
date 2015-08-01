@@ -1,5 +1,5 @@
 
-	<div class="main">
+	<div class="main__content--fullwidth">
 		<h2>Esto es una página independiente</h2>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<!-- post -->

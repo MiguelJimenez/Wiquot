@@ -1,7 +1,7 @@
 	<div class="main__content__sidebar">
 		<figure>
-			<img src="<?php bloginfo('template_directory' ); ?>/img/user.jpg" alt="">
-				<figcaption>TITULO</figcaption>
+			<?php echo get_avatar(get_the_author_meta("user_email" )); ?>
+				<figcaption><?php the_author(); ?></figcaption>
 			</img>
 		</figure>
 			
