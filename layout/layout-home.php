@@ -1,4 +1,4 @@
-<body>
+
 	<div class="main">
 		<?php include (TEMPLATEPATH.'/layout/nav-main.php'); ?>
 
@@ -8,5 +8,3 @@
 			<?php include (TEMPLATEPATH.'/layout/main-content-two-cols.php'); ?>
 		</section>
 	</div>
-</body>
-</html>
