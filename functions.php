@@ -6,6 +6,8 @@ function new_excerpt_length($length)
 }
 add_filter( 'excerpt_length', 'new_excerpt_length');
 
+add_theme_support('post-thumbnails' );
+
 
 
 
