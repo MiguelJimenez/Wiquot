@@ -4,5 +4,9 @@
 				<figcaption><?php the_author(); ?></figcaption>
 			</img>
 		</figure>
+
+		<?php if (is_active_sidebar('sidebar-curso-wp' )): ?>
+			<?php dynamic_sidebar('sidebar-curso-wp' ); ?>
+		<?php endif; ?>
 			
 	</div>
